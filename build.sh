@@ -24,7 +24,7 @@ ldflags="\
 -X 'github.com/alist-org/alist/v3/internal/conf.GitAuthor=$gitAuthor' \
 -X 'github.com/alist-org/alist/v3/internal/conf.GitCommit=$gitCommit' \
 -X 'github.com/alist-org/alist/v3/internal/conf.Version=$version' \
--X 'github.com/alist-org/alist/v3/internal/conf.WebVersion=$webVersion' \
+-X 'github.com/alist-org/alist/v3/internal/conf.WebVersion=3.45.0' \
 "
 
 FetchWebDev() {
